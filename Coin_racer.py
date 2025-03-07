@@ -14,7 +14,7 @@ WINDOW_HEIGHT = 700
 display_surface = pygame.display.set_mode((WINDOW_WIDTH,WINDOW_HEIGHT))
 
 #set caption
-pygame.display.set_caption("Money Heist")
+pygame.display.set_caption("Coin Racer")
 
 
 background_image = pygame.transform.scale(pygame.image.load(r"C:\Users\rajha\OneDrive\Desktop\wallpapers\wallpaperflare.com_wallpaper (7).jpg"), (WINDOW_WIDTH,WINDOW_HEIGHT))
@@ -89,7 +89,7 @@ WHITE = pygame.Color(255, 255, 255)
 
 
 
-title = big_game_font.render('Money Heist', True, BLACK)
+title = big_game_font.render('Coin Racer', True, BLACK)
 title_rect = title.get_rect()
 title_rect.centerx = WINDOW_WIDTH//2
 title_rect.top = 0
